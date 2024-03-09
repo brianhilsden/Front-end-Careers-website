@@ -222,7 +222,7 @@ function App() {
       {switchPage && <div className='application'>
         <div className="jobDetails" >
           <h2>Title: {selected && selected[0].Job}</h2>
-          <h3>Job location: {selected && selected[0].Location}</h3>
+          <h3>location: {selected && selected[0].Location}</h3>
         </div>
 
         <div className="form">
