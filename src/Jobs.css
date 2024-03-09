@@ -1,0 +1,40 @@
+.job{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px white solid;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px gray;
+}
+.apply{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.apply--buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+button{
+    height: 2rem;
+    width: 10rem;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: none;
+    cursor: pointer;
+   
+}
+button:active{
+
+    box-shadow: inset 0 0 200px gray;
+
+}
