@@ -12,7 +12,7 @@ function App() {
   
   const navigate=useNavigate()
 
-  //This function handles change of inputs in the application form
+  //This function handles change of inputs in the form
 
 
   //This function handles the button that shows more details about a specific job
