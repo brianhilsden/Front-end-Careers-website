@@ -54,3 +54,24 @@ input{
     height: 2rem;
     font-size: large;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav button{
+    border: none ;
+    
+    
+}
+.title{
+    color: navy;
+    display: flex;
+    gap:8px
+}
+
+.login--buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
