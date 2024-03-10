@@ -1,5 +1,6 @@
 import './Jobs.css'
 //The function displays each job data individually after being mapped in the main function
+
 function Jobs(props){
     return( 
         <div className="job">
