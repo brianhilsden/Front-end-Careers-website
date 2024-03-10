@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Front-end-Careers-website/static/css/main.bf7d9169.css",
-    "main.js": "/Front-end-Careers-website/static/js/main.f7ab456e.js",
+    "main.js": "/Front-end-Careers-website/static/js/main.f884bfb6.js",
     "static/js/453.f7be5b23.chunk.js": "/Front-end-Careers-website/static/js/453.f7be5b23.chunk.js",
     "index.html": "/Front-end-Careers-website/index.html",
     "main.bf7d9169.css.map": "/Front-end-Careers-website/static/css/main.bf7d9169.css.map",
-    "main.f7ab456e.js.map": "/Front-end-Careers-website/static/js/main.f7ab456e.js.map",
+    "main.f884bfb6.js.map": "/Front-end-Careers-website/static/js/main.f884bfb6.js.map",
     "453.f7be5b23.chunk.js.map": "/Front-end-Careers-website/static/js/453.f7be5b23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf7d9169.css",
-    "static/js/main.f7ab456e.js"
+    "static/js/main.f884bfb6.js"
   ]
 }
