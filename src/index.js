@@ -15,7 +15,7 @@ root.render(
     <Router>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<App />}/>
+        <Route path='/Front-end-Careers-website' element={<App />}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/apply' element={<Apply/>}/>

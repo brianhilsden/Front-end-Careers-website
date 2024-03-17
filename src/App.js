@@ -38,13 +38,14 @@ function App() {
   //This useEffect fetches all job data from the backend
   useEffect(() => {
     fetch("https://administrator-careers-website.onrender.com/data")
+ /*    fetch("http://127.0.0.1:5000/data") */
       .then(res =>
         res.json()
       )
       .then(data => {
         setJob(data.map(item => ({ ...item, details: false })))
       })
-
+console.log(job)
 
   }, [])
 
