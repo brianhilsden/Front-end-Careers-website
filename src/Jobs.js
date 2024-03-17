@@ -9,12 +9,13 @@ function Jobs(props){
                 <h2>Job id: {props.item.id}</h2>
                 <h2>Job Title:{props.item.Job} </h2>
                 <h2>Location:{props.item.Location} </h2>
-                
-                </div>
                 <div className='apply--buttons'>
                     <button className="apply--button" onClick={()=>props.handleApplyDetails(props.item.id)}>Apply</button>
                     <button type="apply--details" onClick={()=>props.handleJobDetails(props.item.id)}>{props.item.details?"Less details":"More Details"}</button>
                 </div>
+                
+                </div>
+               
                     
             </div>
             {props.item.details && <div>

@@ -9,9 +9,9 @@
 }
 
 .available_jobs{
-    width: 80%;
+    width: 98%;
     margin: auto;
-    padding: 10px;
+    padding: 0.1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -38,6 +38,9 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    min-height: 80vh;
+    
+
 }
 .jobDetails{
    
@@ -50,14 +53,24 @@
 
 }
 input{
-    width: 40vw;
-    height: 2rem;
+    width: 80vw;
+    height: 3rem;
     font-size: large;
+}
+label{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    
+   
 }
 nav{
     display: flex;
     justify-content: space-around;
-    
+    border-bottom: 5px grey solid;
+    box-shadow: 0 0 15px  rebeccapurple;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 nav button{
     border: none ;
@@ -74,4 +87,7 @@ nav button{
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+}
+.form button{
+    width: 200px;
 }

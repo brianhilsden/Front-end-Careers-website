@@ -12,7 +12,7 @@ function Apply() {
 
     function backtoJobs() {
         setApplied(false)
-        navigate('/')
+        navigate('/Front-end-Careers-website')
     }
 
     useEffect(() => {
@@ -33,7 +33,10 @@ function Apply() {
     const handleSubmit = async () => {
         if (application.email && application.github && application.name) {
             setApplied(!applied)
-            await fetch('https://administrator-careers-website.onrender.com/applications', {
+            await fetch('https://administrator-careers-website.onrender.com/applications', 
+        /* await fetch('http://127.0.0.1:5000/applications', */
+            
+            {
                 method: "POST",
                 headers: {
                     'Content-type': 'application/json'
@@ -50,11 +53,12 @@ function Apply() {
 
     return (
         <div className="Apply">
+            
+            <div className="form">
             <div className="jobDetails" >
                 <h2>Title: {selected && selected[0].Job}</h2>
-                <h3>location: {selected && selected[0].Location}</h3>
+                <h3>Location: {selected && selected[0].Location}</h3>
             </div>
-            <div className="form">
                 <label >
                     Name:&nbsp;
                     <input id="name" type='text' name='name' value={application.name} placeholder='John Doe' onChange={handleChange} autoFocus />

@@ -10,23 +10,31 @@
 }
 .apply{
     display: flex;
-    justify-content: space-between;
+   
     align-items: center;
 }
 .apply--buttons{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+
+   
+}
+.apply--buttons button{
+    display: block;
+    min-width: 100%;
 }
 .summary{
     display: flex;
     flex-direction: column;
     gap: 2px;
+    width: 100%;
 
 }
 button{
+   
+   
     height: 2rem;
-    width: 10rem;
     font-size: large;
     border-radius: 5px;
     box-shadow: none;

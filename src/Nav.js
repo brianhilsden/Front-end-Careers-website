@@ -7,7 +7,7 @@ function Navbar(){
     function handleLogout() {
         localStorage.clear();
         setLoggedIn(false)
-        navigate('/')
+        navigate('/Front-end-Careers-website')
         console.log(loggedIn)
         
       } 
@@ -26,7 +26,7 @@ function Navbar(){
     <nav>
         <div className="title">
         <h2>Royalty inc.</h2>
-        <button onClick={()=>navigate('/')}>Home</button>
+        <button onClick={()=>navigate('/Front-end-Careers-website')}>Home</button>
         </div>
       
         <div className="login--buttons">
