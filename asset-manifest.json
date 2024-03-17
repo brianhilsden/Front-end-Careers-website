@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Front-end-Careers-website/static/css/main.e01685a2.css",
-    "main.js": "/Front-end-Careers-website/static/js/main.94c87b93.js",
-    "static/js/453.f7be5b23.chunk.js": "/Front-end-Careers-website/static/js/453.f7be5b23.chunk.js",
-    "index.html": "/Front-end-Careers-website/index.html",
-    "main.e01685a2.css.map": "/Front-end-Careers-website/static/css/main.e01685a2.css.map",
-    "main.94c87b93.js.map": "/Front-end-Careers-website/static/js/main.94c87b93.js.map",
-    "453.f7be5b23.chunk.js.map": "/Front-end-Careers-website/static/js/453.f7be5b23.chunk.js.map"
+    "main.css": "/static/css/main.b4e4e2c6.css",
+    "main.js": "/static/js/main.c2bc5634.js",
+    "static/js/453.f7be5b23.chunk.js": "/static/js/453.f7be5b23.chunk.js",
+    "index.html": "/index.html",
+    "main.b4e4e2c6.css.map": "/static/css/main.b4e4e2c6.css.map",
+    "main.c2bc5634.js.map": "/static/js/main.c2bc5634.js.map",
+    "453.f7be5b23.chunk.js.map": "/static/js/453.f7be5b23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e01685a2.css",
-    "static/js/main.94c87b93.js"
+    "static/css/main.b4e4e2c6.css",
+    "static/js/main.c2bc5634.js"
   ]
 }
